@@ -1,17 +1,24 @@
-; Michael
-; Auto Click Mouse Button
-; [Insert]   Turn on
-; [CapsLock] Turn off
-; [Delete]   Exit app
+; Michaelangle007
+; Copyleft 2022
 ;
-; https://www.autohotkey.com/
-; https://www.autohotkey.com/docs/commands/MsgBox.htm
+; Auto-Click Mouse Button
+; Instructions:
+;   [Insert]   Turn on
+;   [CapsLock] Turn off
+;   [Delete]   Exit app
+;
+; Requires:
+; * https://www.autohotkey.com/
 
-; in milisecond
+; Help
+; * https://www.autohotkey.com/docs/commands/MsgBox.htm
+; Example:
+; MsgBox, "Caps Lock"
+
+; in miliseconds
 delay := 50
 Toggle := 0
 
-; MsgBox, "Caps Lock"
 CapsLock::
     Toggle := 0
     return
